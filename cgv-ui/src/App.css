@@ -1,0 +1,114 @@
+/* Global start */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--main-color: #c5002f;
+	--hover-color: #ff003f;
+	--first-font: 'Raleway', sans-serif;
+	--secondary-font: 'Roboto Slab', serif;
+}
+
+body {
+	background: #f0eeec;
+}
+
+.cgv-btn {
+	background: #242424;
+	color: var(--main-color);
+}
+
+.cgv-btn:hover {
+	background: #242424;
+	color: var(--hover-color);
+}
+
+.cgv-h5,
+.cgv-h4 {
+	color: #242424;
+	font-family: var(--secondary-font);
+}
+
+.cgv-p {
+	color: var(--main-color);
+}
+
+.card-body {
+	background: #f0eeec;
+}
+
+/* Global end */
+
+.cgv-navbar {
+	height: 45px;
+	display: flex;
+	background: #242424;
+	font-family: var(--first-font);
+}
+
+.cgv-nav-link {
+	color: var(--main-color);
+	font-size: 0.9rem;
+}
+
+.cgv-nav-link:hover {
+	color: var(--hover-color);
+}
+
+.cgv-nav-link img {
+	height: 30px;
+}
+
+.cgv-nav-center {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: 900px;
+	top: 19px;
+}
+
+.cgv-nav-right {
+	display: flex;
+}
+
+.cgv-form {
+	margin: 100px 300px;
+	font-family: var(--secondary-font);
+}
+
+.cgv-btn-order {
+	width: 43px;
+	height: 40px;
+	background-color: whitesmoke;
+	color: #5b0008;
+	border: 1px solid #5b0008;
+	transition: 200ms;
+}
+
+.cgv-btn-order:focus {
+	outline-color: #5b0008;
+}
+
+.cgv-btn-order:hover {
+	font-weight: bolder;
+}
+
+.cgv-btn-disable {
+	width: 43px;
+	height: 40px;
+	background-color: whitesmoke;
+	color: #5b0008;
+	border: 1px solid #5b0008;
+}
+.cgv-btn-pilih {
+	color: whitesmoke;
+	background-color: #5b0008d7;
+	border: 1px solid whitesmoke;
+	width: 43px;
+	height: 40px;
+}
