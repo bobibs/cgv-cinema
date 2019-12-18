@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "234",
+      "id": 1,
+      "role": "admin"
+    },
+    {
+      "username": "guest01",
+      "password": "123",
+      "id": 2,
+      "role": ""
+    },
+    {
+      "username": "guest02",
+      "password": "123",
+      "id": 3,
+      "role": ""
+    }
+  ],
+  "studios": [
+    {
+      "nama": "Studio 1",
+      "jumlahKursi": "260",
+      "id": 1
+    },
+    {
+      "nama": "Studio 2",
+      "jumlahKursi": 260,
+      "id": 2
+    },
+    {
+      "nama": "Studio 3",
+      "jumlahKursi": 260,
+      "id": 3
+    }
+  ],
+  "movies": [
+    {
+      "image": "https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1520447607721-OKIOWUX7XXGYYA36NUEV/ke17ZwdGBToddI8pDm48kIVJSNG9hnwNuZIOHRJ2mugUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdIs88duGTpngXkexMpRBF8z6T9RkZTstsDkJL3_tLO-BVzYLO8PXy8eLrmDmgVS8b8/i2_tease.png?format=200w",
+      "title": "Incredibles 2",
+      "duration": "118",
+      "cast": [
+        "Craig T Nelson",
+        " Holly Hunter",
+        " Sarah Vowell"
+      ],
+      "director": "Brad Bird",
+      "country": "USA",
+      "studio": "Pixar Animation",
+      "jadwal": [
+        12,
+        14,
+        16
+      ],
+      "synopsis": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque obcaecati architecto iure. Iure est soluta inventore perspiciatis quaerat quisquam sed dignissimos ex illum et id, atque voluptas, libero hic earum voluptate a esse tenetur cumque! Earum voluptates, culpa repellendus in quam qui hic porro facere perspiciatis, omnis illo adipisci, delectus ipsa cum aliquam blanditiis? Molestias optio saepe in beatae, perferendis suscipit, quibusdam iste voluptatibus officiis tempore neque deserunt voluptates iure accusamus placeat asperiores quis possimus consectetur eum aperiam illum dolore totam! Sit dolorem sint optio libero, quis nostrum pariatur eaque ut unde nisi consequuntur sed sapiente odit. Vel, deserunt.",
+      "trailers": [
+        "https://www.youtube.com/embed/i5qOzqD9Rms",
+        "https://www.youtube.com/embed/2dW3qfgvpJo"
+      ],
+      "status": "Playing Now",
+      "studioId": 2,
+      "id": 2
+    },
+    {
+      "image": "https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1470687895719-PHTR43KVL0GJO5WTBSQL/ke17ZwdGBToddI8pDm48kIVJSNG9hnwNuZIOHRJ2mugUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdJocnQIIinSH3gKMVYBO3O6NKVxQXU2RncqpSrZgjy6vVmcasS0p5xVGVOciIVNIYc/16_dino.jpg?format=200w",
+      "title": "The Good Dinosaur",
+      "duration": "93",
+      "cast": [
+        "Jeffrey Wright",
+        " Frances McDormand",
+        " Maleah "
+      ],
+      "director": "Peter Sohn",
+      "country": "USA",
+      "studio": "Pixar Animation",
+      "jadwal": [
+        12,
+        14,
+        16
+      ],
+      "synopsis": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque obcaecati architecto iure. Iure est soluta inventore perspiciatis quaerat quisquam sed dignissimos ex illum et id, atque voluptas, libero hic earum voluptate a esse tenetur cumque! Earum voluptates, culpa repellendus in quam qui hic porro facere perspiciatis, omnis illo adipisci, delectus ipsa cum aliquam blanditiis? Molestias optio saepe in beatae, perferendis suscipit, quibusdam iste voluptatibus officiis tempore neque deserunt voluptates iure accusamus placeat asperiores quis possimus consectetur eum aperiam illum dolore totam! Sit dolorem sint optio libero, quis nostrum pariatur eaque ut unde nisi consequuntur sed sapiente odit. Vel, deserunt.",
+      "trailers": [
+        "https://www.youtube.com/embed/O-RgquKVTPE",
+        "https://www.youtube.com/embed/hTsf9EL753A"
+      ],
+      "status": "Coming Soon",
+      "studioId": 3,
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "userId": 3,
+      "movieId": 3,
+      "jadwal": 12,
+      "totalHarga": 25000,
+      "bayar": true,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "movieId": 3,
+      "jadwal": 12,
+      "totalHarga": 75000,
+      "bayar": true,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "movieId": 3,
+      "jadwal": 12,
+      "totalHarga": 50000,
+      "bayar": true,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "movieId": 3,
+      "jadwal": 12,
+      "totalHarga": 50000,
+      "bayar": true,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "movieId": 3,
+      "jadwal": 12,
+      "totalHarga": 25000,
+      "bayar": true,
+      "id": 5
+    }
+  ],
+  "ordersDetail": [
+    {
+      "orderId": 1,
+      "row": 2,
+      "seat": 4,
+      "id": 1
+    },
+    {
+      "orderId": 1,
+      "row": 2,
+      "seat": 5,
+      "id": 2
+    },
+    {
+      "orderId": 1,
+      "seat": 8,
+      "row": 0,
+      "id": 8
+    },
+    {
+      "orderId": 2,
+      "seat": 8,
+      "row": 0,
+      "id": 9
+    },
+    {
+      "orderId": 2,
+      "seat": 9,
+      "row": 0,
+      "id": 10
+    },
+    {
+      "orderId": 2,
+      "seat": 10,
+      "row": 0,
+      "id": 11
+    },
+    {
+      "orderId": 3,
+      "seat": 7,
+      "row": 1,
+      "id": 12
+    },
+    {
+      "orderId": 3,
+      "seat": 8,
+      "row": 1,
+      "id": 13
+    },
+    {
+      "orderId": 4,
+      "seat": 8,
+      "row": 0,
+      "id": 14
+    },
+    {
+      "orderId": 4,
+      "seat": 9,
+      "row": 0,
+      "id": 15
+    },
+    {
+      "orderId": 5,
+      "seat": 8,
+      "row": 2,
+      "id": 16
+    }
+  ],
+  "transactions": [
+    {}
+  ],
+  "transactionsDetail": [
+    {}
+  ]
+}
